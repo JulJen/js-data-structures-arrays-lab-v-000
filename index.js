@@ -21,3 +21,9 @@ function destructivelyRemoveLastDriver(name) {
 function destructivelyRemoveFirstDriver(name) {
   return drivers.shift(name)
 }
+
+// appends a driver to the drivers array and returns a new array, leaving the drivers array unchanged
+function appendDriver(name) {
+  const member = ['Broom'];
+  return const allMembers = [drivers, ...member];
+}
