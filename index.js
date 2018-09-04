@@ -7,3 +7,7 @@ function destructivelyAppendDriver(name) {
   return drivers.push('Ralph');
 }
 
+// prepends a driver to the beginning of the drivers array
+function destructivelyPrependDriver(name) {
+  return drivers.unshift('Bob');
+}
