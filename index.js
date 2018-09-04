@@ -13,6 +13,6 @@ function destructivelyPrependDriver(name) {
 }
 
 // removes the last driver from the drivers
-function destructivelyRemoveLastDriver() {
-  return drivers.pop
+function destructivelyRemoveLastDriver(name) {
+  return drivers.pop(name)
 }
