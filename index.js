@@ -3,4 +3,5 @@
 const drivers = ["Milo", "Otis", "Garfield"];
 
 // appends a driver to the end of the drivers array
-const destructivelyAppendDriver = drivers.push('Ralph');
+function destructivelyAppendDriver(name);
+return drivers.push('Ralph');
