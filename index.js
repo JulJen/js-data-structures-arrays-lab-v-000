@@ -16,3 +16,5 @@ function destructivelyPrependDriver(name) {
 function destructivelyRemoveLastDriver(name) {
   return drivers.pop(name)
 }
+
+// removes the First driver from the drivers array
