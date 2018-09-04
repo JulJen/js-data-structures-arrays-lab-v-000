@@ -39,5 +39,5 @@ function removeLastDriver() {
 
 // removes the first driver from the drivers array and returns a new array, leaving the drivers array unchanged
 function removeFirstDriver() {
-  
+  return drivers.slice(1, 0);
 }
